@@ -1,0 +1,8 @@
+{
+  "name": "whimsical",
+  "description": "Plugin that includes the Whimsical MCP server for creating and editing boards, flowcharts, mind maps, wireframes, and docs",
+  "version": "1.0.0",
+  "author": {
+    "name": "Whimsical"
+  }
+}

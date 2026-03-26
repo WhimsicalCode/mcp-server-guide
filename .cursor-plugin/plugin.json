@@ -1,13 +1,14 @@
 {
   "name": "whimsical",
+  "displayName": "Whimsical",
   "version": "1.0.0",
-  "description": "Cursor Plugin for Whimsical - enables AI assistants to create and edit boards, flowcharts, mind maps, wireframes, docs, and more",
+  "description": "Plugin that includes the Whimsical MCP server for creating and editing boards, flowcharts, mind maps, wireframes, and docs",
   "author": {
-    "name": "Whimsical",
-    "email": "support@whimsical.com",
-    "url": "https://whimsical.com"
+    "name": "Whimsical"
   },
-  "keywords": ["whimsical", "mcp", "diagrams", "flowcharts", "mind-maps", "wireframes", "boards", "docs", "visual-collaboration"],
-  "logo": "logo.svg",
-  "primaryColor": "#5856D6"
+  "logo": "./logo.svg",
+  "homepage": "https://github.com/WhimsicalCode/mcp-server-guide",
+  "repository": "https://github.com/WhimsicalCode/mcp-server-guide",
+  "keywords": ["whimsical", "mcp", "diagrams", "flowcharts", "mind-maps", "wireframes", "boards", "docs"],
+  "mcpServers": "./.mcp.json"
 }

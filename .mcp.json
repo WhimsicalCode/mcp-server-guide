@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "whimsical": {
+      "type": "http",
+      "url": "https://mcp.whimsical.com/mcp"
+    }
+  }
+}
