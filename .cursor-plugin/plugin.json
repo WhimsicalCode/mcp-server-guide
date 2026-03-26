@@ -1,0 +1,13 @@
+{
+  "name": "whimsical",
+  "version": "1.0.0",
+  "description": "Cursor Plugin for Whimsical - enables AI assistants to create and edit boards, flowcharts, mind maps, wireframes, docs, and more",
+  "author": {
+    "name": "Whimsical",
+    "email": "support@whimsical.com",
+    "url": "https://whimsical.com"
+  },
+  "keywords": ["whimsical", "mcp", "diagrams", "flowcharts", "mind-maps", "wireframes", "boards", "docs", "visual-collaboration"],
+  "logo": "logo.svg",
+  "primaryColor": "#5856D6"
+}
