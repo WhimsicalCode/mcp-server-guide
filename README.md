@@ -16,5 +16,5 @@ This plugin connects your AI assistant to Whimsical.
 
 ## Support
 
-- **Whimsical Documentation:** https://whimsical.com/docs
+- **Whimsical Documentation:** https://help.whimsical.com/integrations/remote-mcp
 - **Report Issues:** Contact Whimsical support at support@whimsical.com
