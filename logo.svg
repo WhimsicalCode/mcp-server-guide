@@ -1,4 +1,30 @@
-<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Replace with Whimsical logo -->
-  <rect width="150" height="150" rx="30" fill="#5856D6"/>
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="240" height="240" fill="url(#paint0_linear_3274_1327)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M103.757 86.6518C102.797 85.6887 101.241 85.6887 100.282 86.6518L69.0058 118.041C68.0462 119.005 68.0462 120.566 69.0058 121.529L100.282 152.919C101.241 153.882 102.797 153.882 103.757 152.919L135.033 121.529C135.992 120.566 135.992 119.005 135.033 118.041L103.757 86.6518ZM105.494 74.4447C103.575 72.5184 100.463 72.5184 98.5441 74.4447L56.843 116.298C54.9238 118.224 54.9238 121.347 56.843 123.273L98.5441 165.126C100.463 167.052 103.575 167.052 105.494 165.126L147.195 123.273C149.115 121.347 149.115 118.224 147.195 116.298L105.494 74.4447Z" fill="white"/>
+<mask id="mask0_3274_1327" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="55" y="73" width="94" height="94">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M103.757 86.6518C102.797 85.6887 101.241 85.6887 100.282 86.6518L69.0058 118.041C68.0462 119.005 68.0462 120.566 69.0058 121.529L100.282 152.919C101.241 153.882 102.797 153.882 103.757 152.919L135.033 121.529C135.992 120.566 135.992 119.005 135.033 118.041L103.757 86.6518ZM105.494 74.4447C103.575 72.5184 100.463 72.5184 98.5441 74.4447L56.843 116.298C54.9238 118.224 54.9238 121.347 56.843 123.273L98.5441 165.126C100.463 167.052 103.575 167.052 105.494 165.126L147.195 123.273C149.115 121.347 149.115 118.224 147.195 116.298L105.494 74.4447Z" fill="#220A33"/>
+</mask>
+<g mask="url(#mask0_3274_1327)">
+<g filter="url(#filter0_d_3274_1327)">
+<path d="M133.506 74.4454C135.425 72.5192 138.537 72.5192 140.456 74.4454L182.157 116.298C184.076 118.225 184.076 121.348 182.157 123.274L140.456 165.127C138.537 167.053 135.425 167.053 133.506 165.127L91.8047 123.274C89.8854 121.348 89.8854 118.225 91.8047 116.298L133.506 74.4454Z" fill="black"/>
+</g>
+</g>
+<path d="M133.506 74.4454C135.425 72.5192 138.537 72.5192 140.456 74.4454L182.157 116.298C184.076 118.225 184.076 121.348 182.157 123.274L140.456 165.127C138.537 167.053 135.425 167.053 133.506 165.127L91.8047 123.274C89.8854 121.348 89.8854 118.225 91.8047 116.298L133.506 74.4454Z" fill="white"/>
+<defs>
+<filter id="filter0_d_3274_1327" x="76.3295" y="58.965" width="121.303" height="121.642" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="7.01786"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3274_1327"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3274_1327" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_3274_1327" x1="0.328791" y1="119.999" x2="235.33" y2="148.538" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4433FF"/>
+<stop offset="0.489583" stop-color="#AA33FF"/>
+<stop offset="1" stop-color="#E36BFF"/>
+<stop offset="1" stop-color="#FF33EE"/>
+</linearGradient>
+</defs>
 </svg>
