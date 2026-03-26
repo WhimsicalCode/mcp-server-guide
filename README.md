@@ -96,6 +96,18 @@ The agent creates a new board in your workspace with the complete flowchart, inc
 
 The agent creates a structured mind map with the central topic and branches, ready for you to expand.
 
+### Create a wireframe for a new feature
+
+**Prompt:** "Create a wireframe in Whimsical for a settings page with a sidebar navigation, a profile section with avatar and form fields, and a danger zone at the bottom"
+
+The agent creates a wireframe with UI elements laid out to represent the page structure, ready for review and iteration.
+
+### Create a technical architecture diagram
+
+**Prompt:** "Create a technical diagram in Whimsical showing the architecture of my ACME project: a React frontend talks to an API gateway, which routes to auth, billing, and notification microservices, each with their own database"
+
+The agent creates a board with labeled components, service boundaries, and connectors showing the data flow between systems.
+
 ### Search and read existing boards
 
 **Prompt:** "Search my Whimsical workspace for anything related to 'API design' and summarize what you find"
