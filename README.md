@@ -16,15 +16,6 @@ For full documentation, see the [Whimsical MCP docs](https://help.whimsical.com/
 
 ### Cursor
 
-Install the Whimsical plugin by typing the following command in Cursor's agent chat:
-
-```
-/add-plugin whimsical
-```
-
-<details>
-<summary>Manual setup</summary>
-
 1. Open **Cursor → Settings → Cursor Settings**.
 2. Go to the **MCP** tab.
 3. Click **+ Add new global MCP server**.
@@ -41,8 +32,6 @@ Install the Whimsical plugin by typing the following command in Cursor's agent c
 ```
 
 For more information, see [Cursor's official documentation](https://docs.cursor.com/context/model-context-protocol).
-
-</details>
 
 ### Claude Code
 
@@ -81,6 +70,13 @@ Any code editor or tool that supports Streamable HTTP can connect to the Whimsic
 ## Authentication
 
 The Whimsical MCP server uses OAuth 2.0. When you first connect, you'll be redirected to sign in with your Whimsical account and authorize access to your workspace.
+
+## Troubleshooting
+
+- **OAuth doesn't open or fails.** Run `/mcp` in Claude Code (or the equivalent reconnect action in your client) to reauthenticate. The browser will redirect back to your client once you've signed in to Whimsical.
+- **Tools don't appear after install.** Run `/reload-plugins` in Claude Code, or restart your editor in other clients.
+- **`401` or "Missing Bearer token".** Your OAuth session has expired. Reauthenticate via `/mcp`.
+- **No Whimsical account.** Create one at <https://whimsical.com>; the MCP server signs you in to your existing workspace via OAuth.
 
 ## Examples
 
