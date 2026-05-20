@@ -1,16 +1,16 @@
 # Whimsical MCP Server Guide
 
-The Whimsical MCP server connects AI agents to your Whimsical workspace, enabling them to create and edit boards, flowcharts, mind maps, wireframes, sequence diagrams, and docs.
+The Whimsical MCP server gives your AI coding agent a Whimsical workspace to work in. Ask it to create flowcharts, mind maps, wireframes, sequence diagrams, or sticky notes from your conversation. Iterate with follow-up prompts, open a board in Whimsical to edit and share it, or search your workspace for boards to reference.
 
 For full documentation, see the [Whimsical MCP docs](https://help.whimsical.com/integrations/remote-mcp).
 
 ## Features
 
-- **Create boards and diagrams** — Generate flowcharts, mind maps, sequence diagrams, and wireframes directly from your AI agent
-- **Edit existing content** — Modify boards, add or remove shapes, update text, and rearrange layouts
-- **Search your workspace** — Find files across your Whimsical workspace by name or content
-- **Read board content** — Extract structured data from existing boards for context in your coding workflow
-- **Create and edit docs** — Write and update Whimsical docs
+- **Create boards and diagrams.** Generate flowcharts, mind maps, sequence diagrams, and wireframes from your AI agent.
+- **Edit existing content.** Modify boards, add or remove shapes, update text, and rearrange layouts.
+- **Search your workspace.** Find files by name or content.
+- **Read board content.** Extract structured data from existing boards for context.
+- **Create and edit docs.** Write and update Whimsical docs.
 
 ## Installation & Setup
 
@@ -94,13 +94,13 @@ The agent creates a new board in your workspace with the complete flowchart, inc
 
 **Prompt:** "Create a mind map in Whimsical to brainstorm features for a mobile app, with branches for onboarding, core features, monetization, and growth"
 
-The agent creates a structured mind map with the central topic and branches, ready for you to expand.
+The agent creates a mind map with the central topic and its branches.
 
 ### Create a wireframe for a new feature
 
 **Prompt:** "Create a wireframe in Whimsical for a settings page with a sidebar navigation, a profile section with avatar and form fields, and a danger zone at the bottom"
 
-The agent creates a wireframe with UI elements laid out to represent the page structure, ready for review and iteration.
+The agent creates a wireframe with the UI elements laid out to represent the page structure.
 
 ### Create a technical architecture diagram
 
@@ -112,7 +112,7 @@ The agent creates a board with labeled components, service boundaries, and conne
 
 **Prompt:** "Search my Whimsical workspace for anything related to 'API design' and summarize what you find"
 
-The agent searches your workspace, reads the matching boards, and provides a summary of the content and structure.
+The agent searches your workspace, reads the matching boards, and summarizes them.
 
 ## Support
 
