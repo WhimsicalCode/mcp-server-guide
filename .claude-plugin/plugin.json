@@ -1,5 +1,6 @@
 {
   "name": "whimsical",
+  "displayName": "Whimsical",
   "description": "Create flowcharts, mind maps, wireframes, sequence diagrams, and sticky notes in Whimsical from your conversation. Iterate with follow-up prompts, open boards in Whimsical to edit and collaborate, or search your existing workspace.",
   "version": "1.0.0",
   "author": {
@@ -12,7 +13,7 @@
   "license": "MIT",
   "keywords": [
     "whimsical",
-    "mcp",
+    "whiteboard",
     "diagrams",
     "flowcharts",
     "mind-maps",
