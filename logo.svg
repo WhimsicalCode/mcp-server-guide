@@ -20,10 +20,10 @@
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3274_1327"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3274_1327" result="shape"/>
 </filter>
-<linearGradient id="paint0_linear_3274_1327" x1="0.328791" y1="119.999" x2="235.33" y2="148.538" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_3274_1327" x1="-14.3563" y1="118.2156" x2="250.878" y2="150.4262" gradientUnits="userSpaceOnUse">
 <stop stop-color="#4433FF"/>
 <stop offset="0.489583" stop-color="#AA33FF"/>
-<stop offset="1" stop-color="#E36BFF"/>
+<stop offset="0.744792" stop-color="#E36BFF"/>
 <stop offset="1" stop-color="#FF33EE"/>
 </linearGradient>
 </defs>
