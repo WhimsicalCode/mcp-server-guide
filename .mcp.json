@@ -2,7 +2,31 @@
   "mcpServers": {
     "whimsical": {
       "type": "http",
-      "url": "https://mcp.whimsical.com/mcp"
+      "url": "https://mcp.whimsical.com/mcp",
+      "_meta": {
+        "ideToolIconPath": "./logo-mono.svg",
+        "ideToolIconRendersAsTemplate": true,
+        "ideToolTitles": {
+          "create": "Create",
+          "edit": "Edit",
+          "fetch": "Fetch",
+          "search": "Search",
+          "delete": "Delete",
+          "doc_create": "Create Doc",
+          "file_tree": "Browse Files",
+          "list_workspaces": "List Workspaces",
+          "generate_diagram": "Generate Diagram",
+          "generate_mind_map": "Generate Mind Map",
+          "generate_wireframe": "Generate Wireframe",
+          "wireframe_edit": "Edit Wireframe",
+          "auto_layout": "Auto Layout",
+          "comment_read": "Read Comments",
+          "comment_edit": "Edit Comments",
+          "how_to": "Whimsical Syntax Guide",
+          "get_board_items": "Get Board Items",
+          "get_theme_data": "Get Theme Data"
+        }
+      }
     }
   }
 }

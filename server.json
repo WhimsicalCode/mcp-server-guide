@@ -1,13 +1,30 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-  "name": "com.whimsical.mcp/mcp",
-  "title": "Whimsical MCP Server",
-  "description": "Create flowcharts, mind maps, wireframes, sequence diagrams, and sticky notes in Whimsical from your conversation. Iterate with follow-up prompts, open boards in Whimsical to edit and collaborate, or search your existing workspace.",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.whimsical/mcp",
+  "title": "Whimsical",
+  "description": "Create and edit flowcharts, mind maps, wireframes, and docs in Whimsical, or search your workspace.",
   "repository": {
     "url": "https://github.com/WhimsicalCode/mcp-server-guide",
     "source": "github"
   },
-  "version": "1.0.0",
+  "websiteUrl": "https://whimsical.com/mcp",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/main/icon-256.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ]
+    },
+    {
+      "src": "https://raw.githubusercontent.com/WhimsicalCode/mcp-server-guide/main/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "version": "1.1.0",
   "remotes": [
     {
       "type": "streamable-http",
