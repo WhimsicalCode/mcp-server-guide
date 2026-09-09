@@ -1,8 +1,9 @@
 # Whimsical MCP Server Guide
 
-The Whimsical MCP server gives your AI coding agent a Whimsical workspace to work in. Ask it to create flowcharts, mind maps, wireframes, sequence diagrams, or sticky notes from your conversation. Iterate with follow-up prompts, open a board in Whimsical to edit and share it, or search your workspace for boards to reference.
+The Whimsical MCP server connects an AI agent to a Whimsical workspace. It can create and edit boards, docs, flowcharts, mind maps, sequence diagrams, wireframes, tables and sticky notes, and read, search and comment on content that already exists. Authentication is OAuth 2.1 with PKCE, so there is no API key to manage, and a free Whimsical account can use every tool.
 
-For full documentation, see the [Whimsical MCP docs](https://help.whimsical.com/integrations/remote-mcp).
+For full documentation, see the [Whimsical MCP docs](https://whimsical.com/learn/integrations/mcp).
+For a tool-by-tool reference, see the [MCP tool spec](https://whimsical.com/learn/ai/mcp-tools).
 
 ## Features
 
@@ -16,10 +17,10 @@ For full documentation, see the [Whimsical MCP docs](https://help.whimsical.com/
 
 ### Cursor
 
-1. Open **Cursor → Settings → Cursor Settings**.
-2. Go to the **MCP** tab.
-3. Click **+ Add new global MCP server**.
-4. Enter the following configuration and save:
+[![Add to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=whimsical&config=eyJ1cmwiOiJodHRwczovL21jcC53aGltc2ljYWwuY29tL21jcCJ9)
+
+Or add it by hand: open **Cursor → Settings → Cursor Settings → MCP**, click
+**+ Add new global MCP server**, and save this configuration:
 
 ```json
 {
@@ -31,7 +32,7 @@ For full documentation, see the [Whimsical MCP docs](https://help.whimsical.com/
 }
 ```
 
-For more information, see [Cursor's official documentation](https://docs.cursor.com/context/model-context-protocol).
+For more information, see [Cursor's official documentation](https://cursor.com/docs/mcp).
 
 ### Claude Code
 
@@ -112,6 +113,8 @@ The agent searches your workspace, reads the matching boards, and summarizes the
 
 ## Support
 
-- **Documentation:** https://help.whimsical.com/integrations/remote-mcp
+- **Overview:** https://whimsical.com/integrations/mcp
+- **Documentation:** https://whimsical.com/learn/integrations/mcp
+- **Tool reference:** https://whimsical.com/learn/ai/mcp-tools
 - **Report Issues:** Contact Whimsical support at support@whimsical.com
 - **Privacy Policy:** https://whimsical.com/terms/privacy

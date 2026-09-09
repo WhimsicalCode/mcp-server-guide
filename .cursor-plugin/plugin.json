@@ -2,14 +2,14 @@
   "name": "whimsical",
   "displayName": "Whimsical",
   "version": "1.1.0",
-  "description": "Create flowcharts, mind maps, wireframes, sequence diagrams, and sticky notes in Whimsical from your conversation. Iterate with follow-up prompts, open boards in Whimsical to edit and collaborate, or search your existing workspace.",
+  "description": "Whimsical's official MCP server. Create and edit boards, docs, flowcharts, mind maps, sequence diagrams, wireframes, tables and sticky notes, then read, search and comment on anything already in the workspace. OAuth 2.1, no API key; a free Whimsical account can use every tool.",
   "author": {
     "name": "Whimsical",
     "email": "support@whimsical.com",
     "url": "https://whimsical.com"
   },
   "logo": "./logo.svg",
-  "homepage": "https://whimsical.com",
+  "homepage": "https://whimsical.com/integrations/mcp",
   "repository": "https://github.com/WhimsicalCode/mcp-server-guide",
   "license": "MIT",
   "keywords": ["whimsical", "whiteboard", "diagrams", "flowcharts", "mind-maps", "wireframes", "sequence-diagrams", "sticky-notes", "boards", "docs", "visualization"],
