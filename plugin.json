@@ -1,6 +1,6 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "whimsical",
-  "displayName": "Whimsical",
   "version": "1.1.0",
   "description": "Whimsical's official MCP server. Create and edit boards, docs, flowcharts, mind maps, sequence diagrams, wireframes, tables and sticky notes, then read, search and comment on anything already in the workspace. OAuth 2.1, no API key; a free Whimsical account can use every tool.",
   "author": {
@@ -8,10 +8,20 @@
     "email": "support@whimsical.com",
     "url": "https://whimsical.com"
   },
-  "logo": "./logo.svg",
   "homepage": "https://whimsical.com/integrations/mcp",
   "repository": "https://github.com/WhimsicalCode/mcp-server-guide",
   "license": "MIT",
-  "keywords": ["whimsical", "whiteboard", "diagrams", "flowcharts", "mind-maps", "wireframes", "sequence-diagrams", "sticky-notes", "boards", "docs", "visualization"],
-  "mcpServers": "./.mcp.json"
+  "keywords": [
+    "whimsical",
+    "whiteboard",
+    "diagrams",
+    "flowcharts",
+    "mind-maps",
+    "wireframes",
+    "sequence-diagrams",
+    "sticky-notes",
+    "boards",
+    "docs",
+    "visualization"
+  ]
 }
