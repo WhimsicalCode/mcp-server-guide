@@ -5,7 +5,7 @@
   "description": "Whimsical's official MCP server. Create and edit boards, docs, flowcharts, mind maps, sequence diagrams, wireframes, tables and sticky notes, then read, search and comment on anything already in the workspace. OAuth 2.1, no API key; a free Whimsical account can use every tool.",
   "author": {
     "name": "Whimsical",
-    "email": "support@whimsical.com",
+    "email": "help@whimsical.com",
     "url": "https://whimsical.com"
   },
   "logo": "./logo.svg",
